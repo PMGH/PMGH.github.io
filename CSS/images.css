@@ -70,42 +70,58 @@ rect {
 
 /* Portfolio */
 
-#record_store_project, #pizza_shop_project, #student_enrolment_project, #top_trumps_project {
+#project_3, #project_4, #project_1, #project_2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#record_store_project:hover, #pizza_shop_project:hover, #student_enrolment_project:hover, #top_trumps_project:hover {
+#project_3:hover, #project_4:hover, #project_1:hover, #project_2:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   opacity: 1;
   animation: fadein 2.5s;
 }
 
-#record_store_project {
+#project_3 {
   background-image: url("../Icons/projects/record_store.png");
 }
-#record_store_project:hover {
+#project_3:hover {
   background-image: url("../Icons/projects/record_store_caption.png");
 }
 
-#top_trumps_project {
+#project_2 {
   background-image: url("../Icons/projects/rick_and_morty.png");
 }
-#top_trumps_project:hover {
+#project_2:hover {
   background-image: url("../Icons/projects/rick_and_morty_caption.png");
 }
 
-#pizza_shop_project {
-  background-image: url("../Icons/projects/pizza_shop.png");
+#project_4 {
+  background-image: url("../Icons/projects/gin.jpg");
 }
-#pizza_shop_project:hover {
-  background-image: url("../Icons/projects/pizza_shop_caption.png");
+#project_4:hover {
+  background-image: url("../Icons/projects/gin_caption.png");
 }
 
-#student_enrolment_project {
-  background-image: url("../Icons/projects/student_enrolment.png");
+#project_1 {
+  background-image: url("../Icons/projects/makeup.jpg");
 }
-#student_enrolment_project:hover {
-  background-image: url("../Icons/projects/student_enrolment_caption.png");
+#project_1:hover {
+  background-image: url("../Icons/projects/makeup_caption.png");
+}
+
+#project_6 {
+  background-image: url("../Icons/projects/ski_areas_weather.jpg");
+}
+
+#project_6:hover {
+  background-image: url("../Icons/projects/ski_areas_weather_caption.png");
+}
+
+#project_5 {
+  background-image: url("../Icons/projects/brewdog_beers.jpg");
+}
+
+#project_5:hover {
+  background-image: url("../Icons/projects/brewdog_beers_caption.png");
 }
 
 @keyframes fadein {
