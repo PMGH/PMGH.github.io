@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Site tab title -->
+    <title>PM Contact</title>
+    <!-- Link to associated CSS -->
+    <link rel="stylesheet" type="text/css" href="../CSS/pm_contact.css"/>
+    <!-- Link to google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Open+Sans+Condensed:300" rel="stylesheet">
+    <!-- Site meta data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta Name="Description" Content="Peter McCready"/>
+    <meta Name="keywords" Content="codeclan, peter mccready"/>
+  </head>
+  <body>
+
+    <!-- Site navigation -->
+    <nav>
+      <ul class="navigation">
+        <li class="nav_item"><a class="nav_item_link" href="pm_home.html">Home</a></li>
+        <li class="nav_item"><a class="nav_item_link" href="pm_cv.html">CV</a></li>
+        <li class="nav_item"><a class="nav_item_link" href="pm_hobbies.html">Hobbies</a></li>
+        <li class="nav_item" id="contact"><a class="nav_item_link current_page" href="pm_contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Contact form -->
+    <div class="form">
+      <form class="contact_form" action="mailto:petermccready2@gmail.com" method="GET" enctype="text/plain">
+        <div class="form_item">
+          Name: <input type="text" name="subject" />
+        </div>
+        <div class="form_item">
+          Email: <input type="text" name="email" />
+        </div>
+        <div class="form_item">
+          Message: <br><textarea id="message" type="text" name="body"></textarea>
+        </div>
+        <div>
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+
+    <!-- Footer -->
+    <div class="external_navigation">
+      <a href="https://www.codecademy.com/pmccready_118" target="_blank"><img class="icon" id="codecademy_icon" src="../Icons/Codecademy.png" alt="Codecademy"></a>
+      <a href="https://github.com/PMGH" target="_blank"><img class="icon" id="github_icon" src="../Icons/GitHub.svg" alt="GitHub"></a>
+      <a href="https://stackoverflow.com/users/8292331/peter-mccready?tab=profile" target="_blank"><img class="icon" id="stackoverflow_icon" src="../Icons/Stack_Overflow.png" alt="Stack Overflow"></a>
+      <a href="https://www.linkedin.com/in/peter-mccready-2aab5b52/" target="_blank"><img class="icon" id="linkedin_icon" src="../Icons/linkedin.png" alt="LinkedIn"></a>
+    </div>
+
+    <!-- Signature -->
+    <div class="headings">
+      <h4 id="signature">PMcCready</h4>
+    </div>
+
+  </body>
+</html>

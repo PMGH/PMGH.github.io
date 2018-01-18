@@ -1,0 +1,119 @@
+#pm_headshot {
+  height: 20%;
+  width: 15%;
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-left: 5%;
+}
+
+#projects, #interests_div {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  padding: 2%;
+}
+
+.project_container, .project_img, .interest_container {
+  height: 250px;
+  width: 250px;
+}
+
+.project_container, .interest_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2%;
+}
+
+.project_img, .interest_img {
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+rect {
+  padding: 110px;
+}
+
+
+/* Interests */
+
+#munros, #snowboarding, #running, #traveling {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#munros {
+  background: url('../Images/beinn_ghlas.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#snowboarding {
+  background: url('../Images/PM_headshot_3.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#running {
+  background: url('../Images/Mens_10km_2.jpg');
+  background-size: cover;
+  background-position: 100% 0%;
+}
+
+#traveling {
+  background: url('../Images/Wai-O-Tapu_Geothermal_Wonderland_2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* Portfolio */
+
+#record_store_project, #pizza_shop_project, #student_enrolment_project, #top_trumps_project {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#record_store_project:hover, #pizza_shop_project:hover, #student_enrolment_project:hover, #top_trumps_project:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  opacity: 1;
+  animation: fadein 2.5s;
+}
+
+#record_store_project {
+  background-image: url("../Icons/projects/record_store.png");
+}
+#record_store_project:hover {
+  background-image: url("../Icons/projects/record_store_caption.png");
+}
+
+#top_trumps_project {
+  background-image: url("../Icons/projects/rick_and_morty.png");
+}
+#top_trumps_project:hover {
+  background-image: url("../Icons/projects/rick_and_morty_caption.png");
+}
+
+#pizza_shop_project {
+  background-image: url("../Icons/projects/pizza_shop.png");
+}
+#pizza_shop_project:hover {
+  background-image: url("../Icons/projects/pizza_shop_caption.png");
+}
+
+#student_enrolment_project {
+  background-image: url("../Icons/projects/student_enrolment.png");
+}
+#student_enrolment_project:hover {
+  background-image: url("../Icons/projects/student_enrolment_caption.png");
+}
+
+@keyframes fadein {
+    from { opacity: 0.6; }
+    to   { opacity: 1; }
+}
+
+@keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0.6; }
+}

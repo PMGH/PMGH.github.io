@@ -1,0 +1,256 @@
+/* Universal selector */
+* {
+  /* border: 1px solid rgba(0, 0, 0, 0.3); */
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Page body */
+body {
+  background-color: #D7DADD;
+  color: black;
+  font-family: "Helvetica Neue", serif;
+  padding: 0px 50px;
+  text-align: justify;
+}
+
+/* Paragraphs and ordered lists */
+p, ol {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px 0px;
+}
+
+/* Ordered lists */
+ol {
+  padding-left: 20px;
+}
+
+/* Ordered list items */
+ol li {
+  padding-left: 10px;
+}
+
+/* Unvisited links */
+p a:link, ol li a:link {
+  color: #1A7EE2;
+}
+
+/* Visited links */
+p a:visited, ol li a:visited {
+  color: #1A7EE2;
+}
+
+/* Links on hover */
+p a:hover, ol li a:hover {
+  color: lightblue;
+}
+
+/* Active links */
+p a:active, ol li a:active {
+  color: purple;
+}
+
+/* Navigation div */
+.navigation {
+  background-color: #34506B;
+  height: 37px;
+  left: 0;
+  list-style-type: none;
+  margin: 0;
+  min-width: 430px;
+  overflow: hidden;
+  padding: 0px 30px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Navigation bar items */
+.nav_item {
+  float: left;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1em;
+  font-weight: 900;
+  padding: 6px 30px;
+}
+
+/* Navigation bar item links */
+.nav_item_link {
+  color: #ADB0B2;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: center;
+  z-index: 1;
+}
+
+/* Nav bar item links - on hover */
+.nav_item_link:hover {
+  color: white;
+  transition: color 0.3s ease-in;
+  z-index: 1;
+}
+
+/* Current page */
+.current_page {
+  border-bottom: 3px solid #FFF;
+  color: white;
+}
+
+/* Contact nav item */
+#contact {
+  float: right;
+}
+
+/* Hobbies heading */
+h1 {
+  color: #333;
+  font-weight: 900;
+}
+
+/* Coding, Football, Hill-Walking, Running, Snowboarding and Other section headers */
+h2 {
+  color: #006699;
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+
+/* Sections */
+section {
+  background-color: white;
+  border: 3px solid #D3D7DB;
+  border-radius: 5px;
+  padding: 20px 10px;
+  min-width: 1070px;
+}
+
+/* Hobbies div */
+.hobbies {
+  padding-top: 3em;
+}
+
+/* Images */
+.images {
+  border: 1px solid #D3D7DB;
+  display: block;
+  height: 420px;
+  margin: 0 auto;
+  max-height: 420px;
+  max-width: 520px;
+  width: 100%;
+}
+
+/* Inline images */
+.inline-images {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+/* Munro photo slider (slidy) animation */
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+100% { left: -300%; }
+}
+
+/* Munro photo slider */
+div#slider { border: 1px solid #D3D7DB; overflow: hidden; max-height: 400px; max-width: 700px; margin: 0 auto; }
+
+div#slider figure img { height: 10%; max-height: 400px; max-width: 700px; width: 25%; float: left; }
+
+div#slider figure {
+  position: relative;
+  width: 400%;
+  margin: auto;
+  left: 0;
+  animation: 20s slidy infinite;
+}
+
+/* Youtube video div */
+#snowboarding_video_div {
+  display: block;
+  margin: auto;
+  padding: 5px 0px;
+  width: 100%;
+}
+
+/* Youtube video */
+#snowboarding_video {
+  display: block;
+  height: 500px;
+  margin: 0 auto;
+  max-height: 600px;
+  max-width: 890px;
+  width: 100%;
+}
+
+/* Figure captions */
+figcaption {
+  background-color: rgba(111, 139, 158, 0.9);
+  color: white;
+  font-family: "Helvetica Neue", serif;
+  font-weight: 400;
+  max-width: 518px;
+  margin: 0 auto;
+  padding: 6px 0px;
+  position: relative;
+  top: -30px;
+  text-align: center;
+}
+
+.video {
+  border: 1px solid #D3D7DB;
+  height: 420px;
+  max-height: 420px;
+  max-width: 520px;
+  width: 100%;
+}
+
+/* Footer sites (div) - codecademy, github and stackoverflow */
+.external_navigation {
+  display: block;
+  margin: auto;
+  padding-top: 3em;
+  width: 8.6em;
+}
+
+/* Footer sites (icons) - codecademy, github and stackoverflow */
+/* Default icon sizes */
+.icon {
+  height: 1.8em;
+  width: 1.8em;
+}
+
+#codecademy_icon {
+  height: 1.6em;
+  width: 1.6em;
+}
+
+#github_icon {
+  height: 1.7em;
+  width: 1.7em;
+}
+
+#linkedin_icon {
+  height: 1.5em;
+  width: 1.5em;
+}
+
+/* Signature */
+#signature {
+  color: #828486;
+  font-family: "Dancing Script", sans-serif;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 100;
+  padding: 10px;
+  text-align: center
+}

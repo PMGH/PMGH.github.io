@@ -1,0 +1,153 @@
+/* Universal selector */
+* {
+  /*border: 1px solid rgba(0, 0, 0, 0.3);*/
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Page body */
+body {
+  background-color: #34506B;
+}
+
+/* Navigation */
+.navigation {
+  background-color: #EFEFEF;
+  height: 37px;
+  left: 0;
+  list-style-type: none;
+  margin: 0;
+  min-width: 430px;
+  overflow: hidden;
+  padding: 0px 30px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Navigation bar items */
+.nav_item {
+  float: left;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1em;
+  font-weight: 900;
+  padding: 6px 30px;
+}
+
+/* Navigation bar item links */
+.nav_item_link {
+  color: #86898B;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: center;
+  z-index: 1;
+}
+
+/* Navigation bar item links - on hover */
+.nav_item_link:hover {
+  color: black;
+  transition: color 0.3s ease-in;
+  z-index: 1;
+}
+
+/* Current page */
+.current_page {
+  border-bottom: 3px solid #000;
+  color: black;
+}
+
+/* Contact nav item */
+#contact {
+  float: right;
+}
+
+
+/* Headshot (div) */
+.headshot {
+  padding: 70px 0px 50px 0px;
+}
+
+/* Headshot rectangle */
+rect {
+  background-image: url("../Images/PM_headshot.png");
+  background-position: 0% 50%;
+  background-size: cover;
+  border-radius: 100%;
+  display: block;
+  height: 16em;
+  margin: auto;
+  width: 14em;
+}
+
+/* Headshot rectangle - on hover */
+rect:hover {
+  background-image: url("../Images/PM_headshot_3.jpg");
+  background-position: 70% 50%;
+  background-size: cover;
+  transition: background-image 0.3s ease-in;
+}
+
+
+/* Headings */
+.headings {
+  color: white;
+  text-align: center;
+}
+
+/* Peter McCready heading */
+#full_name {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 3.5em;
+  font-weight: 900;
+}
+
+/* My 1st CodeClan Project heading */
+#page_description {
+  color: #9DA2A8;
+  font-family: Georgia, sans-serif;
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: 100;
+}
+
+/* Footer sites (div) - codecademy, github and stackoverflow */
+.external_navigation {
+  display: block;
+  margin: auto;
+  padding-top: 5em;
+  width: 8.6em;
+}
+
+/* Footer sites (icons) - codecademy, github and stackoverflow */
+.icon {
+  height: 1.8em;
+  width: 1.8em;
+}
+
+#codecademy_icon {
+  height: 1.6em;
+  width: 1.6em;
+}
+
+#github_icon {
+  height: 1.7em;
+  width: 1.7em;
+}
+
+#linkedin_icon {
+  height: 1.5em;
+  width: 1.5em;
+}
+
+/* Signature */
+#signature {
+  color: white;
+  font-family: "Dancing Script", sans-serif;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 100;
+  padding: 10px;
+  text-align: center
+}

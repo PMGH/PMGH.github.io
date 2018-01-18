@@ -1,0 +1,186 @@
+/* Universal selector */
+* {
+  /*border: 1px solid rgba(0, 0, 0, 0.3);*/
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Page body */
+body {
+  background-color: #D7DADD;
+  color: black;
+  font-family: "Helvetica Neue", serif;
+  text-align: justify;
+}
+
+/* Unvisited links */
+p a:link, ol li a:link {
+  color: #1A7EE2;
+}
+
+/* Visited links */
+p a:visited, ol li a:visited {
+  color: #1A7EE2;
+}
+
+/* Links on hover */
+p a:hover, ol li a:hover {
+  color: lightblue;
+}
+
+/* Active links */
+p a:active, ol li a:active {
+  color: purple;
+}
+
+/* Navigation div */
+.navigation {
+  background-color: #34506B;
+  height: 37px;
+  left: 0;
+  list-style-type: none;
+  margin: 0;
+  min-width: 430px;
+  overflow: hidden;
+  padding: 0px 30px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Navigation bar items */
+.nav_item {
+  float: left;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1em;
+  font-weight: 900;
+  padding: 6px 30px;
+}
+
+/* Navigation bar item links */
+.nav_item_link {
+  color: #ADB0B2;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: center;
+  z-index: 1;
+}
+
+/* Navigation bar item links - on hover */
+.nav_item_link:hover {
+  color: white;
+  transition: color 0.3s ease-in;
+  z-index: 1;
+}
+
+/* Current page */
+.current_page {
+  border-bottom: 3px solid #FFF;
+  color: white;
+}
+
+/* Contact nav item */
+#contact {
+  float: right;
+}
+
+/* Form */
+.form {
+  color: #333;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  padding-top: 5em;
+  text-align: left;
+}
+
+/* Form elements */
+.form_item {
+  padding: 10px 50px;
+}
+
+/* Form Message element */
+#message {
+  height: 15em;
+}
+
+/* Name, Email and Message input boxes */
+input[type=text], textarea {
+  background-color: #EEEFF1;
+  color: #3E3E3F;
+  border: 1px solid grey;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 100;
+  margin: 5px 0;
+  padding: 10px 5px;
+  text-align: left;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Name, Email and Message input boxes (on focus) */
+input[type=text]:focus, textarea:focus {
+  background-color: #F5F4AA;
+  outline: 2px solid #34506B;
+}
+
+/* Submit button */
+input[type=submit] {
+  background-color: #606160;
+  color: white;
+  display: block;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 auto;
+  padding: 0.75em;
+}
+
+/* Submit button (on hover) */
+input[type=submit]:hover {
+  background-color: #34506B;
+  color: white;
+}
+
+/* Footer sites (div) - codecademy, github and stackoverflow */
+.external_navigation {
+  display: block;
+  margin: auto;
+  padding-top: 3.5em;
+  width: 8.6em;
+}
+
+/* Footer sites (icons) - codecademy, github and stackoverflow */
+.icon {
+  height: 1.8em;
+  width: 1.8em;
+}
+
+#codecademy_icon {
+  height: 1.6em;
+  width: 1.6em;
+}
+
+#github_icon {
+  height: 1.7em;
+  width: 1.7em;
+}
+
+#linkedin_icon {
+  height: 1.5em;
+  width: 1.5em;
+}
+
+/* Signature */
+#signature {
+  color: #828486;
+  font-family: "Dancing Script", sans-serif;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 100;
+  padding: 10px;
+  text-align: center
+}

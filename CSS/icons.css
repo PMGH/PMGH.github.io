@@ -1,0 +1,70 @@
+/* external navigation links - codecademy, github and stackoverflow */
+.external_navigation {
+  display: block;
+  float: right;
+  position: relative;
+  width: 8.6em;
+}
+
+.icon {
+  margin: 0 2px;
+}
+
+#codecademy_icon {
+  width: 20%;
+}
+
+#codecademy_icon:hover {
+  filter: invert(100%);
+}
+
+#github_icon {
+  filter: invert(100%);
+  width: 18%;
+}
+
+#github_icon:hover {
+  filter: invert(0%);
+}
+
+#stackoverflow_icon {
+  width: 13%;
+}
+
+#stackoverflow_icon:hover {
+  filter: invert(100%);
+}
+
+#linkedin_icon {
+  width: 16%;
+}
+
+#linkedin_icon:hover {
+  filter: invert(100%);
+}
+
+
+/* Form icon */
+
+#terminal_prompt {
+  height: 1em;
+  width: 1em;
+  position: relative;
+  top: 10;
+  left: 10;
+}
+
+#resume_download {
+  display: flex;
+  align-items: center;
+}
+
+#resume_download:hover {
+  filter: invert(0%);
+}
+
+.download_icon {
+  filter: invert(50%);
+  margin-left: 10px;
+  width: 15px;
+}

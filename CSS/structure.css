@@ -1,0 +1,155 @@
+* {
+  font-family: 'Lato', 'Noto Serif', helvetica;
+  margin: 0;
+}
+
+h1 {
+  color: #EBEBEB;
+  font-size: 72px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+h5 {
+  color: grey;
+  font-family: "Dancing Script";
+  margin: 20px 0px;
+  text-align: center;
+}
+
+p {
+  color: #EBEBEB;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0px 300px;
+  line-height: 24px;
+}
+
+#developer_heading {
+  padding-top: 50px;
+  margin: 52px 0px;
+}
+
+#landing_page {
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.9)),
+    url('../Images/three_valleys_2.jpg');
+  background-size: cover;
+  min-height: 1000px;
+}
+
+#full_name {
+  color: lightgrey;
+  font-size: 14px;
+  font-weight: 100;
+  position: relative;
+  left: 20px;
+}
+
+#full_name:hover {
+  color: white;
+}
+
+
+/* site navigation links */
+nav {
+  background:
+  linear-gradient(rgba(68,73,80,1), rgba(37,40,46,0.97));
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+}
+
+.nav_item {
+  color: lightgrey;
+  font-size: 18px;
+  font-weight: bold;
+  list-style-type: none;
+  padding: 15px;
+}
+
+.nav_item:hover {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+section {
+  background-size: cover;
+  border-bottom: 10px solid lightgrey;
+  min-height: 750px;
+}
+
+.heading {
+  padding-bottom: 50px;
+}
+
+#about {
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)),
+    url('../Images/bungy.png');
+  background-position: center;
+  background-size: cover;
+}
+
+#about_div {
+  display: flex;
+  flex-direction: row;
+}
+
+#about_content {
+  margin: 0 15% 0 5%;
+}
+
+#resume {
+  background-color: grey;
+}
+
+#portfolio {
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)),
+    url('../Images/wai_o_tapu_geothermal_wonderland.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+#interests {
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)),
+    url('../Images/skydive.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+#contact {
+  background: black;
+  /*background-image: url('../Images/terminal.png');*/
+  background-position: center;
+  font-family:Courier;
+  color: #CCCCCC;
+  padding: 10px;
+}

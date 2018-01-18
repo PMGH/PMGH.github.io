@@ -1,0 +1,273 @@
+/* Universal selector */
+* {
+  /*border: 1px solid rgba(0, 0, 0, 0.3);*/
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Page body */
+body {
+  background: #D7DADD;
+  color: black;
+  font-family: "Helvetica Neue", serif;
+  min-width: 590px;
+  padding: 0px 50px;
+  text-align: justify;
+}
+
+/* Paragraphs */
+p {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px 0px;
+}
+
+/* Unvisited links */
+p a:link, ul li h3 a:link {
+  color: #1A7EE2;
+}
+
+/* Visited links */
+p a:visited, ul li h3 a:visited {
+  color: #1A7EE2;
+}
+
+/* Links on hover */
+p a:hover, ul li h3 a:hover {
+  color: lightblue;
+}
+
+/* Active links */
+p a:active, ul li h3 a:active {
+  color: purple;
+}
+
+/* Navigation div */
+.navigation {
+  background-color: #34506B;
+  height: 37px;
+  left: 0;
+  list-style-type: none;
+  margin: 0;
+  min-width: 430px;
+  overflow: hidden;
+  padding: 0px 30px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Navigation bar items */
+.nav_item {
+  float: left;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1em;
+  font-weight: 900;
+  padding: 6px 30px;
+}
+
+/* Navigation bar item links */
+.nav_item_link {
+  color: #ADB0B2;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: center;
+  z-index: 1;
+}
+
+/* Navigation bar item links - on hover */
+.nav_item_link:hover {
+  color: white;
+  transition: color 0.3s ease-in;
+  z-index: 1;
+}
+
+/* Current page */
+.current_page {
+  border-bottom: 3px solid #FFF;
+  color: white;
+}
+
+/* Contact nav item */
+#contact {
+  float: right;
+}
+
+/* Headings */
+/* Peter McCready */
+h1 {
+  color: #333;
+  font-weight: 900;
+}
+
+/* Curriculum Vitae */
+h2 {
+  color: #828486;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0px 0px 40px 0px;
+}
+
+/* Contact Details */
+h3 {
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+/* Work Experience/Education/Interests */
+h4 {
+  border-top: 1px solid #D3D7DB;
+  color: #006699;
+  font-size: 18px;
+  padding: 15px 0px;
+}
+
+/* Work & Education Titles */
+h5 {
+  color: #333;
+  font-size: 14px;
+  padding: 5px 0px;
+}
+
+/* Locations */
+h6 {
+  color: #006699;
+  font-size: 12px;
+  padding: 5px 0px;
+}
+
+/* CV (div) */
+.CV {
+  background-color: white;
+  border: 3px solid #D3D7DB;
+  border-radius: 5px;
+  min-width: 680px;
+  padding: 20px 10px;
+  position: relative;
+  top: 3em;
+}
+
+/* Work experience (div) */
+.work_experience {
+  padding-top: 20px;
+}
+
+/* Headshot image */
+#headshot {
+  border-radius: 100%;
+  float: right;
+  height: 140px;
+  position: relative;
+  right: 30px;
+  width: 140px;
+}
+
+/* Contact details column 1 div */
+.column_1 {
+  display: inline-block;
+  line-height: 15px
+  width: 39%;
+}
+
+/* Contact details column 2 div */
+.column_2 {
+  display: inline-block;
+  width: 38%;
+}
+
+/* Contact details icons */
+.contact_icon {
+  float: left;
+  height: 15px;
+  position: relative;
+  top: 1px;
+  width: 15px;
+}
+
+/* Contact details headings */
+.contact_details_heading {
+  padding: 0px 30px;
+  white-space: nowrap;
+}
+
+/* Scottish Water achievements section (div) */
+.achievements {
+  font-size: 14px;
+  font-weight: 400;
+  list-style-type: circle;
+  padding: 0px 15px;
+}
+
+/* Scottish Water achievements section (achievements) */
+.achievement {
+  margin: 5px 10px;
+}
+
+.course {
+  padding-bottom: 10px;
+}
+
+/* Education images */
+.education_images {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  min-width: 500px;
+  padding: 20px 0px;
+}
+
+/* MSc images */
+.MSc_images {
+  border: 2px solid #D3D7DB;
+  height: 250px;
+  width: 260px;
+}
+
+/* MSc images on hover */
+.MSc_images:hover {
+  border: 1px solid #D3D7DB;
+}
+
+/* Footer sites (div) - codecademy, github and stackoverflow */
+.external_navigation {
+  display: block;
+  margin: auto;
+  padding-top: 6em;
+  width: 8.6em;
+}
+
+/* Footer sites (icons) - codecademy, github and stackoverflow */
+.icon {
+  height: 1.8em;
+  width: 1.8em;
+}
+
+#codecademy_icon {
+  height: 1.6em;
+  width: 1.6em;
+}
+
+#github_icon {
+  height: 1.7em;
+  width: 1.7em;
+}
+
+#linkedin_icon {
+  height: 1.5em;
+  width: 1.5em;
+}
+
+/* Signature */
+#signature {
+  color: #828486;
+  font-family: "Dancing Script", sans-serif;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 100;
+  padding: 10px;
+  text-align: center
+}

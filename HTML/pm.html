@@ -6,10 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta Name="Description" Content="Peter McCready"/>
   <meta Name="keywords" Content="codeclan, peter mccready"/>
-  <link rel="stylesheet" type="text/css" href="./CSS/structure.css"/>
-  <link rel="stylesheet" type="text/css" href="./CSS/images.css"/>
-  <link rel="stylesheet" type="text/css" href="./CSS/forms.css"/>
-  <link rel="stylesheet" type="text/css" href="./CSS/icons.css"/>
+  <link rel="stylesheet" type="text/css" href="../CSS/structure.css"/>
+  <link rel="stylesheet" type="text/css" href="../CSS/images.css"/>
+  <link rel="stylesheet" type="text/css" href="../CSS/forms.css"/>
+  <link rel="stylesheet" type="text/css" href="../CSS/icons.css"/>
   <!-- Link to google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Open+Sans+Condensed:300" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
@@ -25,17 +25,17 @@
 
       <ul class="navigation">
         <a class="nav_item_link current_page" href="#about"><li class="nav_item">about</li></a>
-        <a class="nav_item_link" href="./download/peter_mccready_cv.pdf" download="Peter McCready CV" id="resume_download"><li class="nav_item">resume<img class="download_icon" src="./Icons/download.png" /></li></a>
+        <a class="nav_item_link" href="../download/peter_mccready_cv.pdf" download="Peter McCready CV" id="resume_download"><li class="nav_item">resume<img class="download_icon" src="../Icons/download.png" /></li></a>
         <a class="nav_item_link" href="#portfolio"><li class="nav_item">portfolio</li></a>
         <a class="nav_item_link" href="#interests"><li class="nav_item">interests</li></a>
         <a class="nav_item_link" href="#contact"><li class="nav_item">contact</li></a>
       </ul>
 
       <div class="external_navigation">
-        <a href="https://github.com/PMGH" target="_blank"><img class="icon" id="github_icon" src="./Icons/github.png" alt="GitHub"></a>
-        <a href="https://www.linkedin.com/in/peter-mccready-2aab5b52/" target="_blank"><img class="icon" id="linkedin_icon" src="./Icons/linkedin.png" alt="LinkedIn"></a>
-        <a href="https://stackoverflow.com/users/8292331/peter-mccready?tab=profile" target="_blank"><img class="icon" id="stackoverflow_icon" src="./Icons/stackoverflow.png" alt="Stack Overflow"></a>
-        <a href="https://www.codecademy.com/pmccready_118" target="_blank"><img class="icon" id="codecademy_icon" src="./Icons/codecademy.png" alt="Codecademy"></a>
+        <a href="https://github.com/PMGH" target="_blank"><img class="icon" id="github_icon" src="../Icons/github.png" alt="GitHub"></a>
+        <a href="https://www.linkedin.com/in/peter-mccready-2aab5b52/" target="_blank"><img class="icon" id="linkedin_icon" src="../Icons/linkedin.png" alt="LinkedIn"></a>
+        <a href="https://stackoverflow.com/users/8292331/peter-mccready?tab=profile" target="_blank"><img class="icon" id="stackoverflow_icon" src="../Icons/stackoverflow.png" alt="Stack Overflow"></a>
+        <a href="https://www.codecademy.com/pmccready_118" target="_blank"><img class="icon" id="codecademy_icon" src="../Icons/codecademy.png" alt="Codecademy"></a>
       </div>
     </nav>
 
@@ -49,7 +49,7 @@
     <h1 class="heading">about.</h1>
 
     <div id="about_div">
-      <img id="pm_headshot" src="./Images/pm_headshot_4.png" alt="Peter McCready Headshot">
+      <img id="pm_headshot" src="../Images/pm_headshot_4.png" alt="Peter McCready Headshot">
 
       <p id="about_content">
         I am a Glasgow-based developer who recently changed career into Tech having discovered a love for programming and am very excited about the new challenges ahead.<br /><br />
@@ -76,6 +76,10 @@
       In my spare time following a ski holiday I also like to put a video together using iMovie for my family and friends that were on the trip.
     </p>
 
+    <!-- select an interest from a dropdown? Reveals cards for that interest? -->
+    <!-- interests tiles (images with popup/transparent overlay holding additional information) -->
+    <!-- CSS switches to other side of card on hover - other side has text details about image -->
+    <!-- need javascript? -->
     <div id="interests_div">
 
       <p class="interest_container"><rect id="munros" class="interest_img" alt="Beinn Ghlas Munro image"></p>
@@ -131,15 +135,15 @@
     <div id="form">
       <form class="contact_form" action="mailto:petermccready2@gmail.com" method="GET" enctype="text/plain">
         <div class="form_item">
-          <img id="terminal_prompt" src="./Icons/right-grey-arrow-prompt.png"/>
+          <img id="terminal_prompt" src="../Icons/right-grey-arrow-prompt.png"/>
           name: <input type="text" name="name" />
         </div>
         <div class="form_item">
-          <img id="terminal_prompt" src="./Icons/right-grey-arrow-prompt.png"/>
+          <img id="terminal_prompt" src="../Icons/right-grey-arrow-prompt.png"/>
           email: <input type="text" name="email" />
         </div>
         <div class="form_item">
-          <img id="terminal_prompt" src="./Icons/right-grey-arrow-prompt.png"/>
+          <img id="terminal_prompt" src="../Icons/right-grey-arrow-prompt.png"/>
           message: <br><textarea id="message" type="text" name="body"></textarea>
         </div>
         <div>

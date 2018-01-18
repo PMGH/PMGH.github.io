@@ -1,0 +1,59 @@
+/* Form */
+#form {
+  color: #333;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  margin: 0px 300px;
+  padding-top: 5em;
+  text-align: left;
+}
+
+/* Form elements */
+.form_item {
+  color: white;
+  padding: 10px 50px;
+}
+}
+
+/* Form Message element */
+#message {
+  height: 15em;
+}
+
+/* Name, Email and Message input boxes */
+input[type=text], textarea {
+  background-color: black;
+  border: 1px solid grey;
+  margin: 5px 0;
+  max-width: 100%;
+  padding: 10px 5px;
+  text-align: left;
+  width: 100%;
+}
+
+/* Name, Email and Message input boxes (on focus) */
+input[type=text]:focus, textarea:focus {
+  background-color: #EBEBEB;
+  border: 1px solid grey;
+}
+
+/* Submit button */
+input[type=submit] {
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid grey;
+  color: white;
+  display: block;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 auto;
+  padding: 0.75em;
+  cursor: pointer;
+}
+
+/* Submit button (on hover) */
+input[type=submit]:hover {
+  background: grey;
+  color: white;
+}
